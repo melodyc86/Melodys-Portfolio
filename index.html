@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfolio</title>
   <link rel="stylesheet" href="styles.css">
+  <form id="contact-form" action="send_email.php" method="post">
+
   
 </head>
 
@@ -68,7 +70,7 @@
                     <img src="Images\Project_Images\python.png" alt="Placeholder Image">
                 </div>
                 <div class="description-section">
-                    <p>Short description goes here...</p>
+                    <p> Several different Python Projects </p>
                 </div>
             </div>
             <button class="card-button" onclick="redirectToGitHub('https://github.com/melodyc86/Python-Games')">
@@ -87,7 +89,7 @@
                     <img src="Images\Project_Images\pygame.png" alt="Placeholder Image">
                 </div>
                 <div class="description-section">
-                    <p>Short description goes here...</p>
+                    <p> Several different Python games using PyGame </p>
                 </div>
             </div>
             <button class="card-button" onclick="redirectToGitHub('https://github.com/melodyc86/PyGame-Games')">
@@ -103,13 +105,15 @@
                     <h2>Turtle</h2>
                 </div>
                 <div class="image-section">
-                    <img src="placeholder.jpg" alt="Placeholder Image">
+                  <br>
+
+                    <img src="Images\Project_Images\turtle.png" alt="Placeholder Image">
                 </div>
                 <div class="description-section">
-                    <p>Short description goes here...</p>
+                    <p> Several different Python games using Turtle </p>
                 </div>
             </div>
-            <button class="card-button" onclick="redirectToGitHub()">
+            <button class="card-button" onclick="redirectToGitHub('https://github.com/melodyc86/Python-TurtleGames/blob/main/README.md')">
               <img src="Icons\Button_Icons\Github.png" alt="GitHub Logo" class="github-logo">
               GitHub
           </button>
@@ -120,13 +124,12 @@
 <section id="contact-me">
   <h2>Send me a message</h2>
   <div class="contact-form-container">
-    <form id="contact-form">
-      <form action="mailto:melcheerios@gmail.com" method="post" enctype="text/plain">
+    <form id="contact-form" action="send_email.php" method="post">
       <div class="form-group">
-        <input type="text" id="first-name" name="first-name" placeholder="First Name" required>
+        <input type="text" id="full-name" name="full-name" placeholder="Full Name" required>
       </div>
       <div class="form-group">
-        <input type="text" id="last-name" name="last-name" placeholder="Last Name" required>
+        <input type="text" id="Subject" name="Subject" placeholder="Subject" required>
       </div>
       <div class="form-group">
         <input type="email" id="email" name="email" placeholder="Email" required>
@@ -138,6 +141,8 @@
     </form>
   </div>
 </section>
+
+
 
 
 
