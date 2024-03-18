@@ -71,10 +71,10 @@
                     <p>Short description goes here...</p>
                 </div>
             </div>
-            <button class="card-button">
+            <button class="card-button" onclick="redirectToGitHub('https://github.com/melodyc86/Python-Games')">
               <img src="Icons\Button_Icons\Github.png" alt="GitHub Logo" class="github-logo">
               GitHub
-          </button>
+          </button>       
         </div>
         
         <!-- Card  2-->
@@ -90,7 +90,7 @@
                     <p>Short description goes here...</p>
                 </div>
             </div>
-            <button class="card-button">
+            <button class="card-button" onclick="redirectToGitHub('https://github.com/melodyc86/PyGame-Games')">
               <img src="Icons\Button_Icons\Github.png" alt="GitHub Logo" class="github-logo">
               GitHub
           </button>
@@ -109,7 +109,7 @@
                     <p>Short description goes here...</p>
                 </div>
             </div>
-            <button class="card-button">
+            <button class="card-button" onclick="redirectToGitHub()">
               <img src="Icons\Button_Icons\Github.png" alt="GitHub Logo" class="github-logo">
               GitHub
           </button>
@@ -152,3 +152,9 @@
 
 </body>
 </html>
+
+<script>
+  function redirectToGitHub(repoURL) {
+      window.location.href = repoURL;
+  }
+</script>
