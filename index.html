@@ -124,12 +124,13 @@
 <section id="contact-me">
   <h2>Send me a message</h2>
   <div class="contact-form-container">
-    <form id="contact-form" action="send_email.php" method="post">
+    <form id="contact-form">
+      <form action="https://formspree.io/f/xgeglaop" method="post" enctype="text/plain">
       <div class="form-group">
         <input type="text" id="full-name" name="full-name" placeholder="Full Name" required>
       </div>
       <div class="form-group">
-        <input type="text" id="Subject" name="Subject" placeholder="Subject" required>
+        <input type="text" id="subject" name="Subject" placeholder="Subject" required>
       </div>
       <div class="form-group">
         <input type="email" id="email" name="email" placeholder="Email" required>
@@ -141,8 +142,6 @@
     </form>
   </div>
 </section>
-
-
 
 
 
