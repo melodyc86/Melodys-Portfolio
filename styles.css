@@ -144,98 +144,131 @@ section {
     margin-top: 5px; /* Add top margin to separate from the divider */
 }
 
-/* Project's Section*/
-.container {
-    display: flex;
+/* Project's Section */
+.container{
+    display:flex;
     justify-content: center;
 }
 
 .card {
     width: 200px;
-    height: 280px;
-    margin: 0 20px;
-    background-color: #17141d;
+    height: 300px;
+    background-color: #E5D2B8;
+    border: 1px solid #2C2913;
     border-radius: 10px;
-    box-shadow: -1rem 0 3rem #000;
-    transition: 0.4s ease-out;
+    overflow: hidden;
     position: relative;
-    left: 0px;
-}
-
-.card:not(:first-child) {
-    margin-left: 0;
+    transition: transform 0.3s;
+    margin-right: 20px;
 }
 
 .card:hover {
-    transform: translateY(-20px);
-    transition: 0.4s ease-out;
+    transform: scale(1.05); /* Scale up the card on hover */
 }
 
-.title {
-    color: white;
-    font-weight: 300;
-    position: absolute;
-    left: 20px;
-    top: 15px;
+.title-section {
+    color: #2C2913;
+    background-color: #B3B792; 
+    padding: 5px;
+    text-align: center; 
+}
+  
+.image-section {
+    text-align: center;
+    padding: 5px 0;
+}
+  
+.image-section img {
+    max-width: 50%;
+    max-height: 50%;
+}
+  
+.description-section {
+    padding: 2px;
 }
 
-.bar {
-    position: absolute;
-    top: 100px;
-    left: 20px;
-    height: 5px;
-    width: 150px;
+.card-button {
+    display: flex;
+    align-items: center;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background-color: #2C2913;
+    color: #C8B393;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+  
+.card-button:hover {
+    background-color: #555;
+}
+ 
+.github-logo {
+    width: 25px; /* Adjust size as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 5px; /* Adjust spacing between logo and text */
 }
 
-.emptybar {
-    background-color: #2e3033;
+/*Contact Me*/
+#contact-me {
+    background-color: #E5E0D8;
+    padding: 20px;
+}
+
+.contact-form-container {
+    background-color: #B3B792;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.contact-form-container h2 {
+    color: #2C2913;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #C8B393;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group textarea {
     width: 100%;
-    height: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #E5E0D8;
 }
 
-.filledbar {
-    position: absolute;
-    top: 0px;
-    z-index: 3;
-    width: 0px;
-    height: 100%;
-    background: rgb(0, 154, 217);
-    background: linear-gradient(
-        90deg,
-        rgba(0, 154, 217, 1) 0%,
-        rgba(217, 147, 0, 1) 65%,
-        rgba(255, 186, 0, 1) 100%
-    );
-    transition: 0.6s ease-out;
+.form-group textarea {
+    height: 100px;
 }
 
-.card:hover .filledbar {
-    width: 120px;
-    transition: 0.4s ease-out;
+button[type="submit"] {
+    background-color: #2C2913;
+    color: #C8B393;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
-.circle {
-    position: absolute;
-    top: 150px;
-    left: calc(50% - 60px);
+button[type="submit"]:hover {
+    background-color: #555;
 }
 
-.stroke {
-    stroke: white;
-    stroke-dasharray: 360;
-    stroke-dashoffset: 360;
-    transition: 0.6s ease-out;
-}
 
-svg {
-    fill: #17141d;
-    stroke-width: 2px;
-}
+/*Connect*/  
 
-.card:hover .stroke {
-    stroke-dashoffset: 100;
-    transition: 0.6s ease-out;
-}
+
 /*Footer*/
 footer {
     background-color: #2C2913;
