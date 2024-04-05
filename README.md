@@ -22,7 +22,9 @@ Connect with me on LinkedIn, GitHub, or Tableau Public to stay updated on my lat
 ## Usage
 Click on the link at the top to go to my website :)
 
-<br>
-#Figma
+# Figma
 Curious about the proces? 
-Here's the link to my Figma Page: [Portfolio Website - Figma](https://www.figma.com/file/DLaf11GO3hczAOdlc2oosq/Portfolio-Website?type=design&node-id=1669-162202&mode=design)
+
+Here's the link to my Figma Page: 
+
+- [Portfolio Website - Figma](https://www.figma.com/file/DLaf11GO3hczAOdlc2oosq/Portfolio-Website?type=design&node-id=1669-162202&mode=design)
