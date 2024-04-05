@@ -8,7 +8,7 @@ Table of Contents
 - Connect
 
 ## About
-This portfolio website provides an overview of my background, education, skills, and interests. It also includes a collection of my projects, ranging from Python applications to data visualization using Tableau.
+This portfolio website provides an overview of my background, education, skills, and interests. It also includes a collection of my projects, ranging from Python applications to Tableau data visualization.
 
 ## Projects
 The Projects section of the website displays a variety of projects I've worked on. Each project includes a brief description, relevant images, and links to GitHub repositories or Tableau dashboards.
@@ -23,7 +23,7 @@ Connect with me on LinkedIn, GitHub, or Tableau Public to stay updated on my lat
 Click on the link at the top to go to my website :)
 
 # Figma
-Curious about the proces? 
+Curious about the process? 
 
 Here's the link to my Figma Page: 
 
