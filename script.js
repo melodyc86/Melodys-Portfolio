@@ -4,6 +4,9 @@ function redirectToGitHub(repoURL) {
 function redirectToTableau(repoURL) {
   window.location.href = repoURL;
 }
+function redirectToProfiles(repoURL) {
+  window.location.href = repoURL;
+}
 
 
 document.addEventListener('DOMContentLoaded', function () {
