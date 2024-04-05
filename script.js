@@ -1,3 +1,11 @@
+function redirectToGitHub(repoURL) {
+  window.location.href = repoURL;
+}
+function redirectToTableau(repoURL) {
+  window.location.href = repoURL;
+}
+
+
 document.addEventListener('DOMContentLoaded', function () {
   const inputs = document.querySelectorAll('.form-group input, .form-group textarea');
   
@@ -19,3 +27,4 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   });
 });
+

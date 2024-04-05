@@ -209,6 +209,17 @@ section {
     height: auto; /* Maintain aspect ratio */
     margin-right: 5px; /* Adjust spacing between logo and text */
 }
+.Tableau-logo {
+    width: 25px; 
+    height: auto; 
+    margin-right: 5px; 
+}
+.linkedin-logo {
+    width: 25px; 
+    height: auto; 
+    margin-right: 5px; 
+}
+
 
 /*Contact Me*/
 #contact-me {
@@ -267,7 +278,25 @@ button[type="submit"]:hover {
 
 
 /*Connect*/  
+#connect {
+    text-align: center;
+    padding: 50px 0;
+}
 
+.connect-button {
+    background-color: #2C2913;
+    color: #C8B393;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.connect-button:hover {
+    background-color: #555;
+}
 
 /*Footer*/
 footer {
