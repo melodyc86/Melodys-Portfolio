@@ -119,18 +119,18 @@ section {
 /*Home Section*/
 #home {
     text-align: center;  
-    padding-top: 0.586rem; 
+    padding-top: 10rem; 
 }
 
 .home-content {
-    margin-bottom: 0.313rem;  
+    margin-bottom: 1rem;  
 }
 
 .home-content img {
-    width: 0.977rem;  
+    width: 12rem;  
     height: auto; /* Maintain aspect ratio */
     display: block; /* Center the image */
-    margin: 0 auto 0.625rem; /* Center the image and provide bottom margin */
+    margin: 0 auto 1.25rem; /* Center the image and provide bottom margin */
 }
 
 .home-content h2, .home-content h3 {
