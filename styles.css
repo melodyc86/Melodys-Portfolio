@@ -146,6 +146,11 @@ section {
 }
 
 /* Project's Section */
+.project{
+    margin-top: 0.313rem; /* Add top margin to separate from the divider */
+    padding-left: 1.25rem;
+}
+
 .container{
     display:flex;
     padding-left: 1.25rem;
